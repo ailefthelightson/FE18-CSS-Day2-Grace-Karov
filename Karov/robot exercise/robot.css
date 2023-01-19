@@ -9,7 +9,39 @@ img {
 #hair1 {
   position:absolute;
   top: 0;
-  left: 50px;
-  width: 310px;
+  left: 52px;
+  width: 315px;
+}
+
+#ears1{
+  width: 380px;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  z-index: 1;
+}
+
+#eyes2 {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 200px;
+  z-index: 1;
+}
+
+#mouth2 {
+  position: absolute;
+  top: 340px;
+  left: 150px;
+  width: 100px;
+  z-index: 1;
+}
+
+#nose1 {
+  position: absolute;
+  top: 220px;
+  left: 160px;
+  width: 70px;
+  z-index: 1;
 }
 
