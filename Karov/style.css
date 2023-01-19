@@ -1,0 +1,50 @@
+.container {
+    width: 800px;
+    padding: 0 50px 0 50px;
+    margin: auto;
+    box-shadow: 10px 0 6px -6px rgba(31, 73, 125, 0.8), -9px 0 6px -6px rgba(31, 73, 125, 0.8);
+}
+
+p, li {
+    color: #707070;
+}
+
+h1 {
+    text-align: center;
+    color: #DB0038;
+}
+
+h2 {
+    color: #3998A3;
+}
+
+h3 {
+    color: #474747;
+}
+
+.hero {
+    background-color: #F4F4F4;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+li {
+    padding: 5px 0 5px 0;
+}
+
+.rating {
+    font-size: 25px;
+    text-align: center;
+}
+
+.yellow {
+    color: #F4B400;
+}
+
+.white {
+    color: #F4B400;
+}
+
+footer {
+    text-align: center;
+}
