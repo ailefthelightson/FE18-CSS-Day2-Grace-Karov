@@ -1,3 +1,15 @@
+body h1 {
+    color: #DB0038;
+}
+body h2 {
+    color: #3998A3; 
+}
+body h3 {
+    color:#474747;
+}
+
+
+
 .container {
     width:800px;
     text-align:center;
@@ -6,13 +18,15 @@
     padding: 0 50px 0 50px;
 }
 
-/*.container:before {
-    box-shadow:-20px 0 20px 0 red inset;
+li, p {
+    color: #707070;
 }
-.container:after{
-    box-shadow:20px 0 20px -20px red inset;
-}*/
+header {
+    text-align: center;
+}
 
-h1 {
-    color:green;
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 0 0 10px 0;   
 }
