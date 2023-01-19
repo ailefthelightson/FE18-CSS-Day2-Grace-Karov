@@ -1,0 +1,18 @@
+.container {
+    width:800px;
+    text-align:center;
+    box-shadow:  00px 10px 15px 5px grey ;
+    
+    padding: 0 50px 0 50px;
+}
+
+/*.container:before {
+    box-shadow:-20px 0 20px 0 red inset;
+}
+.container:after{
+    box-shadow:20px 0 20px -20px red inset;
+}*/
+
+h1 {
+    color:green;
+}
