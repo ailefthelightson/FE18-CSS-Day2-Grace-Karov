@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body{
+    font-family: 'Happy Monkey', cursive;
+}
+
 body h1 {
     color: #DB0038;
 }
@@ -12,7 +19,8 @@ body h3 {
 
 .container {
     width:800px;
-    text-align:center;
+    
+    margin: auto;
     box-shadow:  00px 10px 15px 5px grey ;
     
     padding: 0 50px 0 50px;
@@ -29,4 +37,16 @@ header {
     background-color: #f4f4f4;
     text-align: center;
     padding: 0 0 10px 0;   
+}
+
+li {
+    padding: 5px 0 5px 0; 
+}
+
+.rating span {
+    color: #F4B400;
+    font-size: 25px;
+}
+footer {
+    text-align: center;
 }
