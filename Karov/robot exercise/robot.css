@@ -1,0 +1,15 @@
+img {
+  width: 50px;
+}
+
+#face {
+  width: 400px;
+}
+
+#hair1 {
+  position:absolute;
+  top: 0;
+  left: 50px;
+  width: 310px;
+}
+
