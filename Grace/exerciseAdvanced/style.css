@@ -57,12 +57,29 @@ nav a {
     position: relative;
     top: 18%;   
     left: 25%;
+    font-weight:bold;
 }
 
 .pageContent > p{
         text-align: center;
 }
+p::first-line {
+    font-size: 2.0rem;
+    font-weight:bold;
+}
 
 #formOne {
-    
+    border: 1px solid black;
+    height: 60px;
+    background-color: rgb(255,255,255);
+}
+
+#formOne form{
+    padding: 17px;
+    text-align: center;
+    box-shadow: 0 10px 8px -8px;
+}
+
+footer{
+    text-align: center;
 }
