@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: mediumaquamarine;
+    width: 100vw;
+    height: 7vh;
+    z-index: 1;
+}
+
+.navbar-logo {
+    width: 50px;
+    position: absolute;
+}
+
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: small;
+    color: blue;
+    margin: 5px 5px 5px 50px;
+}
+
+
+nav li a {
+    text-decoration: none;
+    font-size: small;
+}
+
+.hero {
+    background-image: url("pictures/hero_image2.jpeg");
+    background-size: cover;
+    background-position-y: -100px;
+    width: 99vw;
+    height: 70vh;
+}
+
+.content, .hero-content {
+    position: relative;
+    top: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.5em;
+}
+
+.content li{
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    font-size: x-large;
+    margin: 20px;
+}
+
+.gallery-content li {
+    display: inline-block;
+}
+
+.gallery-content h2 {
+    position: relative;
+    bottom: 80px;
+}
+
+.gallery-content img {
+    width: 15vw;
+}
+
+.destinations-content li {
+    display: block;
+}
+
+.card {
+    position: relative;
+    top: 30px;
+    background-color: antiquewhite;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    box-shadow: 3px 3px 3px 2px gray;
+}
+
+.card h2 {
+    color: darkcyan;
+    padding: 30px;
+    text-shadow: 2px 1px 3px whitesmoke;
+}
+
+.contact-form {
+    color: darkgreen;
+    padding: 10px;
+}
+
+footer {
+    background-color: mediumaquamarine;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}

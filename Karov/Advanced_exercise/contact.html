@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@200&family=Happy+Monkey&family=Lobster&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
 
-    <title>Home</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             <img class="navbar-logo" src="pictures/logo.jpg" alt="colorful company logo">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="about.html">About</a>
@@ -32,7 +32,7 @@
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact us</a>
+                    <a href="#">Contact us</a>
                 </li>
             </ul>
         </nav>
@@ -41,12 +41,26 @@
     <main>
         <div class="hero">
             <div class="hero-content">
-                <h1>Wild Nature Journeys</h1>
                 <div class="card">
-                    <h2>
-                        It's not about the destination,<br>
-                        It's about the journey!
-                    </h2>
+                   <form class="contact-form">
+                    <h3>Send us a message</h3>
+                        <label for="firstname">First Name: </label> <br>
+                        <input type="text" name="firstname"> <br>
+
+                        <label for="lastname">Last Name: </label> <br>
+                        <input type="text" name="lastname"> <br>
+
+                        <label for="email">Email: </label> <br>
+                        <input type="email" name="email"> <br>
+
+                        <label for="message">Your Message</label> <br>
+                        <textarea name="message" id="message" cols="30" rows="10">
+
+                        </textarea> <br>
+
+                        <input type="submit">
+
+                   </form>
                 </div>
             </div>
         </div>
