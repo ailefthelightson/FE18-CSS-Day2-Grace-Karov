@@ -5,3 +5,34 @@ img {
   width: 400px;
 }
 
+#eyes1 {
+  position:absolute;
+  top: 25%;
+  left: 9%;
+  width: 140px;
+
+}
+
+#mouth2{
+  position:absolute;
+  top:320px;
+  left:100px;
+  width:200px;
+}
+#hair1 {
+  position:absolute;
+  top: 0;
+  left: 52px;
+  width: 315px;
+}
+#ears2 {
+  position:absolute;
+  top:200px;
+  width:410px;
+  left:0px;
+}
+#nose2 {
+  position:absolute;
+  top: 240px;
+  left:150px;
+}
